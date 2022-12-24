@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "tin3o",
+  "version": "${version}",
+  "name": "TIN3O",
+  "description": "This is no out-of-order!!!!!!!!!!!!!!!",
+  "authors": [
+    "Chara_SS"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/tin3o/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "me.charass.tin3o.TIN3O"
+    ]
+  },
+  "mixins": [
+    "tin3o.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
